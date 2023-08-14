@@ -1,0 +1,18 @@
+.board-container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+    padding-top: 6rem;
+}
+.board-column{
+    max-width: 350px;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .board-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }

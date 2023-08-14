@@ -1,0 +1,23 @@
+.ticket{
+    width: 100%;
+    min-height: 130px;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border:0.1px solid rgba(0, 0, 0, 0.1);
+}
+.ticket img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+ .ticketTitle{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.4;
+    max-height: 2.8em;
+}
